@@ -10,8 +10,8 @@
 !README.es.md
 
 !/exercises
-/exercises/__pycache__
 !/exercises/*
+/exercises/*/__pycache__
 
 !/.learn
 /.learn/**
