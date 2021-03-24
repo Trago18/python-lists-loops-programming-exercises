@@ -5,5 +5,6 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 'Matthew','Ella','Aiden','Madison','Henry','Scarlett','Joseph','Victoria','Jackson','Aria',
 'Samuel','Grace','Sebastian','Chloe','David','Camila','Carter','Penelope','Wyatt','Riley']
 
+newList = list(filter(lambda x: x.find('am') != -1 , names))
 
-#Your code go here:
+print(newList)

@@ -10,6 +10,6 @@ tasks = [
 	{ "label": 'Make a trip', "done": False }
 ]
 
+doneTasks = list(filter(lambda x: x["done"] == True, tasks))
 
-#Your code go here:
-
+print(doneTasks)

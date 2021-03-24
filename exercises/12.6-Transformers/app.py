@@ -6,6 +6,9 @@ incomingAJAXData = [
 	{ "name": 'Bobby', "lastName": 'Mc birth' }
 ]
 
-#Your code go here:
+def my_var(x):
+    return (f'{x["name"]} {x["lastName"]}')
+    
+transformedData = list(map(my_var, incomingAJAXData))
 
-
+print(transformedData)
